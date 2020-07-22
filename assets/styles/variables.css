@@ -1,0 +1,11 @@
+:root {
+	--c-white: #fff; 
+ 	--c-black: #000;
+ 	--c-blue: rgb(80, 155, 245);
+ 	--c-dark-light: rgba(0, 0, 0, 0.6);
+ 	--c-success: #1DB954;
+ 	--c-success-hover: #1DB904;
+ 	--c-hover: #2D46B9;
+ 	--c-gray: #616467;
+ 	--c-green:#1DB954;
+}

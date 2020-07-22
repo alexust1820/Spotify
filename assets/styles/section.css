@@ -1,0 +1,18 @@
+.section {
+	min-height: 100vh;
+}
+
+.section.-main {
+	background-color: var(--c-blue);
+	position: relative;
+	z-index: 5;
+	min-height: 80vh;
+	background-image: url(https://campaigns-test.scdn.co/images/premium_dancer.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: 450px;
+}
+
+.section.-rec {
+	padding: 40px 0;
+}

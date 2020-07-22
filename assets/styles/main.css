@@ -1,0 +1,27 @@
+.logo {
+	width: 120px;
+}
+
+.rules {
+	color: var(--c-white);
+	font-size: 13px;
+	margin-top: 30px;
+}
+
+.rules__a {
+	border-bottom: 1px solid var(--c-white);
+}
+
+.main__bg {
+	position: absolute;
+	width: 340px;
+	bottom: 0;
+	right: 0;
+	z-index: 5;
+}
+
+@media screen and (max-width: 830px) {
+	.main__var {
+		width: 100vw;
+	}
+}

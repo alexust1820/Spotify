@@ -1,0 +1,14 @@
+.content.-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content.-main {
+	padding:55px 0;
+}
+
+.content.-rec {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

@@ -1,0 +1,73 @@
+.account {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.pro {
+	width: 30px;
+	height: 30px;
+	border: 2px solid var(--c-white);
+	border-radius: 50%;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pro__face {
+	background-color: var(--c-white);
+	width: 12px;
+	height: 15px;
+	border-radius: 50%;
+	position: relative;
+}
+
+.pro__face:before {
+	content: "";
+	background-color: var(--c-white);
+	width: 22px;
+	height: 12px;
+	position: absolute;
+	border-radius: 50%;
+	top: 9px;
+	right: -5.5px;
+}
+
+.burger {
+	background-color: var(--c-white);
+	width: 25px;
+	height: 5px;
+	position: relative;
+	display: none;
+}
+
+.burger:before {
+	content: "";
+	background-color: var(--c-white);
+	width: 25px;
+	height: 5px;
+	display: none;
+	top: -10px;
+	position: absolute;
+}
+
+.burger:after {
+	content: "";
+	background-color: var(--c-white);
+	width: 25px;
+	height: 5px;
+	display: none;
+	top: 10px;
+	position: absolute;
+}
+
+@media screen and (max-width: 830px) {
+	.acc__p {
+		display: none;
+	}
+
+	.burger, .burger:before, .burger:after {
+		display: block;
+	}
+}

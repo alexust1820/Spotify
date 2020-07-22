@@ -1,0 +1,90 @@
+.playlists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.info {
+	width: 350px;
+	height: 350px;
+	margin-bottom: 30px;
+	background-size: 350px;
+}
+
+.info:hover > .btn__hover {
+	display: flex;
+	background-color: var(--c-dark-light);
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.btn__hover {
+	display: none;
+}
+
+.info.-ghost_boy {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e02c73bd9b0e34b067d7d3bd7b9);
+}
+
+.info.-awful_things {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e024958dc3c8e7aa7db22f55af3);
+}
+
+.info.-avoid {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e02e40ad8554ddbbd20c1b930d0);
+}
+
+.info.-fuckyoucunt {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e0244af0e8b8f1ca5ae51ee86ad);
+}
+
+.info.-whenilie {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e02d3321cc900ddcc5ef4fc0fa0);
+}
+
+.info.-fallingdown {
+	background-image: url(https://i.scdn.co/image/ab67616d00001e0255e36b0dc5b0ef008fc85319);
+}
+
+@media screen and (max-width: 770px) {
+
+	.info {
+		width: 500px;
+		height: 500px;
+		background-size: 500px;
+	}
+
+	.playlists {
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 540px) {
+
+	.info {
+		width: 400px;
+		height: 400px;
+		background-size: 400px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+
+	.info {
+		width: 315px;
+		height: 315px;
+		background-size: 315px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+
+	.info {
+		width: 300px;
+		height: 300px;
+		background-size: 300px;
+	}
+}

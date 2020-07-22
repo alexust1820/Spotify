@@ -1,0 +1,30 @@
+.header {
+	padding: 17px 0;
+	background-color: var(--c-dark-light);
+	position: fixed;
+	width: 100vw;
+}
+
+.header__right {
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	border-right: 1px solid white;
+	display: block;
+}
+
+@media screen and (max-width: 830px) {
+	.header {
+		background-color: var(--c-black);
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.acc__p {
+		display: none;
+	}
+}

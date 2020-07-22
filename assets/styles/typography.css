@@ -1,0 +1,102 @@
+.title {
+	font-size: 80px;
+	font-family: 'Circular-cyr', sans-serif;
+	color: var(--c-white);
+}
+
+.subtitle {
+	font-size: 30px;
+	color: var(--c-white);
+}
+
+.title.-main {
+	margin: 0;
+}
+
+.acc__p {
+	margin: 0;
+}
+
+.title.-rec {
+	color: var(--c-black);
+	font-size: 40px;
+	text-align: center;
+}
+
+.subtitle.-rec {
+	color: var(--c-black);
+	font-size: 15px;
+	margin: 0;
+}
+
+.playlist__name {
+	margin:0;
+	font-size: 35px;
+}
+
+.autor {
+	margin-top: 10px;
+	color: var(--c-dark-light);
+}
+
+.playlist__a {
+	text-transform: uppercase;
+	color: var(--c-green);
+}
+
+.lists__name {
+	color: var(--c-gray);
+	text-transform: uppercase;
+	list-style-type: none;
+}
+
+.footer__p {
+	color: var(--c-gray);
+	font-size: 12px;
+}
+
+.footer__rus:hover {
+	color: var(--c-green);
+}
+
+.p {
+	margin: 0;
+}
+
+@media screen and (max-width: 830px) {
+	.footer__more {
+		font-size: 7px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+
+	.title.-rec {
+		font-size: 30px;
+		margin: 0;
+	}
+
+	.subtitle.-rec {
+		font-size: 10px;
+	}
+	
+	.title {
+		font-size: 60px;
+		padding: 20px 0;
+	}
+
+	.subtitle {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.title {
+		font-size: 40px;
+		padding: 20px 0;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+}
